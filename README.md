@@ -37,7 +37,7 @@ A python classes to control the Google Drive API and Google Sheets API with dire
     drive = google_drive(drive_service)
     sheet = google_sheet(sheet_service,sheet_client,drive)
 
-### Examples
+# Examples
 
 ###################################################################
 
