@@ -12,8 +12,8 @@ Work_DIR = os.getenv('Code_Directory', '/home/jovyan/work')       # Current .py 
 Data_DIR = os.path.join(WORK_DIR, 'Data_Directory')               # Subdirectory to store the data
 Credentials_DIR = os.path.join(WORK_DIR, 'Credentials_Directory') # Subdirectory to store the credentials json files
 
-SCOPES = ['https://www.googleapis.com/auth/drive',
-          'https://www.googleapis.com/auth/spreadsheets']
+          SCOPES = ['https://www.googleapis.com/auth/drive',
+                    'https://www.googleapis.com/auth/spreadsheets']
 
 CLIENT_SECRET_FILE = 'client_service.json'                        # Generated from Google Cloud APIs Console - Service Account
 
