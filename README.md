@@ -8,9 +8,9 @@ A python classes to control the Google Drive API and Google Sheets API with dire
 
 ###################################################################
 
-Work_DIR = os.getenv('Code_Directory', '/home/jovyan/work')       # Current .py code or notebook directory
-Data_DIR = os.path.join(WORK_DIR, 'Data_Directory')               # Subdirectory to store the data
-Credentials_DIR = os.path.join(WORK_DIR, 'Credentials_Directory') # Subdirectory to store the credentials json files
+    Work_DIR = os.getenv('Code_Directory', '/home/jovyan/work')       # Current .py code or notebook directory
+    Data_DIR = os.path.join(WORK_DIR, 'Data_Directory')               # Subdirectory to store the data
+    Credentials_DIR = os.path.join(WORK_DIR, 'Credentials_Directory') # Subdirectory to store the credentials json files
 
     SCOPES = ['https://www.googleapis.com/auth/drive',
               'https://www.googleapis.com/auth/spreadsheets']
